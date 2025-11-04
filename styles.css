@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.recent-work {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.recent-work h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.recent-work .subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.recent-work .description {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #777;
+}
+
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.work-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 500px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-5px);
+}
+
+.work-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.work-card h3 {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+.work-card p {
+  margin: 0 20px 20px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 20px 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+
+
